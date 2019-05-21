@@ -1,0 +1,23 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0e\x00G\x00u\x00a\x00n\x00l\x00a\x00i)
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Application Launcher
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x02\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0e\x00G\x00u\x00a\x00n\x00l\x00a\x00i\x00\x00\x00\x0e\x00r\x00e\x00l\x00e\x00a\x00s\x00e\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0e\x00G\x00u\x00a\x00n\x00l\x00a\x00i\x00\x00\x00\x12\x00S\x00F\x00B\x008\x001\x004\x00-\x00C\x005)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///calculate/iwtm841/Guanlai/SFB814-C5
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=
+Use External Terminal=false
+Working Directory=file:///calculate/iwtm841/Guanlai
+isExecutable=true
