@@ -1,0 +1,34 @@
+\addplot [color=blue, mark = none, forget plot]
+  table[row sep=newline]{%
+              0               0
+              0        0.038498
+              0        0.076996
+              0        0.115494
+              0        0.153992
+              0        0.716969
+              0        0.787727
+              0        0.858485
+              0        0.929242
+              0               1
+};
+
+\addplot [color=blue, mark = none, forget plot]
+  table[row sep=newline]{%
+              0        0.153992
+              0        0.224364
+              0        0.294736
+              0        0.365108
+              0        0.435481
+              0        0.505853
+              0        0.576225
+              0        0.646597
+              0        0.716969
+};
+
+\addplot [color=blue, mark = none, ]
+  table[row sep=newline]{%
+};
+
+\addlegendentry{$|$\mbox{\boldmath$\varepsilon$}$^p|$, $\lambda_{gb}$ = xx};
+
+

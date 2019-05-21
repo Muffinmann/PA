@@ -2979,7 +2979,7 @@ int main(int argc, char *argv[]) {
 //	}
     try {
         using namespace dealii;
-        /*if (parameter.get_integer("n_slip") == 0) {
+        if (parameter.get_integer("n_slip") == 0) {
         	SFB814_C5::ElastoplasticProblem<3, 0> elastic_problem_3d(
         			parameter.get_integer("number_gp"));
         	elastic_problem_3d.run();
@@ -2987,16 +2987,16 @@ int main(int argc, char *argv[]) {
         	SFB814_C5::ElastoplasticProblem<3, 1> elastic_problem_3d(
         			parameter.get_integer("number_gp"));
         	elastic_problem_3d.run();
-        }else*/
+        }else
         if (parameter.get_integer("n_slip") == 2) {
             SFB814_C5::ElastoplasticProblem<3, 2> elastic_problem_3d(
                 parameter.get_integer("number_gp"));
             elastic_problem_3d.run();
-        } /*else if (parameter.get_integer("n_slip") == 12) {
+        } else if (parameter.get_integer("n_slip") == 12) {
 			SFB814_C5::ElastoplasticProblem<3, 12> elastic_problem_3d(
 					parameter.get_integer("number_gp"));
 			elastic_problem_3d.run();
-		}  */
+		}  
     } catch (std::exception &exc) {
         std::cerr << std::endl << std::endl
                   << "----------------------------------------------------"

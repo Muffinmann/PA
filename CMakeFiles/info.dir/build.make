@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /calculate/iwtm841/Guanlai
+CMAKE_SOURCE_DIR = /calculate/iwtm841/PA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
+CMAKE_BINARY_DIR = /calculate/iwtm841/PA
 
 # Utility rule file for info.
 
@@ -49,7 +46,7 @@ CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
 include CMakeFiles/info.dir/progress.make
 
 CMakeFiles/info:
-	/usr/bin/cmake -P /calculate/iwtm841/Guanlai/CMakeFiles/print_usage.cmake
+	/usr/bin/cmake -P /calculate/iwtm841/PA/CMakeFiles/print_usage.cmake
 
 info: CMakeFiles/info
 info: CMakeFiles/info.dir/build.make
@@ -64,6 +61,6 @@ CMakeFiles/info.dir/clean:
 .PHONY : CMakeFiles/info.dir/clean
 
 CMakeFiles/info.dir/depend:
-	cd /calculate/iwtm841/Guanlai && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai/CMakeFiles/info.dir/DependInfo.cmake --color=$(COLOR)
+	cd /calculate/iwtm841/PA && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA/CMakeFiles/info.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/info.dir/depend
 

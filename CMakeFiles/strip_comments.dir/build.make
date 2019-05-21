@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /calculate/iwtm841/Guanlai
+CMAKE_SOURCE_DIR = /calculate/iwtm841/PA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
+CMAKE_BINARY_DIR = /calculate/iwtm841/PA
 
 # Utility rule file for strip_comments.
 
@@ -49,7 +46,7 @@ CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
 include CMakeFiles/strip_comments.dir/progress.make
 
 CMakeFiles/strip_comments:
-	$(CMAKE_COMMAND) -E cmake_progress_report /calculate/iwtm841/Guanlai/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /calculate/iwtm841/PA/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "strip comments"
 	/usr/bin/perl -pi -e 's#^[ \t]*//.*\n##g;' SFB814-C5.cc
 
@@ -66,6 +63,6 @@ CMakeFiles/strip_comments.dir/clean:
 .PHONY : CMakeFiles/strip_comments.dir/clean
 
 CMakeFiles/strip_comments.dir/depend:
-	cd /calculate/iwtm841/Guanlai && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai/CMakeFiles/strip_comments.dir/DependInfo.cmake --color=$(COLOR)
+	cd /calculate/iwtm841/PA && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA/CMakeFiles/strip_comments.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/strip_comments.dir/depend
 

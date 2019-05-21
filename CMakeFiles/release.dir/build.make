@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /calculate/iwtm841/Guanlai
+CMAKE_SOURCE_DIR = /calculate/iwtm841/PA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
+CMAKE_BINARY_DIR = /calculate/iwtm841/PA
 
 # Utility rule file for release.
 
@@ -49,10 +46,10 @@ CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
 include CMakeFiles/release.dir/progress.make
 
 CMakeFiles/release:
-	$(CMAKE_COMMAND) -E cmake_progress_report /calculate/iwtm841/Guanlai/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /calculate/iwtm841/PA/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Switch CMAKE_BUILD_TYPE to Release"
-	/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release /calculate/iwtm841/Guanlai
-	/usr/bin/cmake --build /calculate/iwtm841/Guanlai --target all
+	/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release /calculate/iwtm841/PA
+	/usr/bin/cmake --build /calculate/iwtm841/PA --target all
 
 release: CMakeFiles/release
 release: CMakeFiles/release.dir/build.make
@@ -67,6 +64,6 @@ CMakeFiles/release.dir/clean:
 .PHONY : CMakeFiles/release.dir/clean
 
 CMakeFiles/release.dir/depend:
-	cd /calculate/iwtm841/Guanlai && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai/CMakeFiles/release.dir/DependInfo.cmake --color=$(COLOR)
+	cd /calculate/iwtm841/PA && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA/CMakeFiles/release.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/release.dir/depend
 
