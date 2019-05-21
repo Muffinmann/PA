@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /calculate/iwtm841/Guanlai
+CMAKE_SOURCE_DIR = /calculate/iwtm841/PA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
+CMAKE_BINARY_DIR = /calculate/iwtm841/PA
 
 # Utility rule file for distclean.
 
@@ -49,10 +46,10 @@ CMAKE_BINARY_DIR = /calculate/iwtm841/Guanlai
 include CMakeFiles/distclean.dir/progress.make
 
 CMakeFiles/distclean:
-	$(CMAKE_COMMAND) -E cmake_progress_report /calculate/iwtm841/Guanlai/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /calculate/iwtm841/PA/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "distclean invoked"
-	/usr/bin/cmake --build /calculate/iwtm841/Guanlai --target clean
-	/usr/bin/cmake --build /calculate/iwtm841/Guanlai --target runclean
+	/usr/bin/cmake --build /calculate/iwtm841/PA --target clean
+	/usr/bin/cmake --build /calculate/iwtm841/PA --target runclean
 	/usr/bin/cmake -E remove_directory CMakeFiles
 	/usr/bin/cmake -E remove CMakeCache.txt cmake_install.cmake Makefile
 
@@ -69,6 +66,6 @@ CMakeFiles/distclean.dir/clean:
 .PHONY : CMakeFiles/distclean.dir/clean
 
 CMakeFiles/distclean.dir/depend:
-	cd /calculate/iwtm841/Guanlai && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai /calculate/iwtm841/Guanlai/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /calculate/iwtm841/PA && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA /calculate/iwtm841/PA/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/distclean.dir/depend
 

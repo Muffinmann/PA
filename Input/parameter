@@ -1,9 +1,9 @@
 # Materialparameters
-set EModul				= 260053.26	#129500	# EModul (MPa) 260053.26	119800
-set nu					= 0.3002663	# 0.3002663	0.3858
-set mu					= 100000	#103000	# Shearmodul (MPa) 100000	96900
-set	h0					= 50		# hardeningparameter in slipsystems   !!!!TODO h = 0
-set	pi0					= 50		# initial slipresistance in slipsystems (MPa) (at 23C)
+set EModul				= 121344	#129500	# EModul (MPa) 260053.26	119800
+set nu					= 0.3858	# 0.3002663	0.3858
+set mu					= 107212	#103000	# Shearmodul (MPa) 100000	96900
+set	h0					= 550		# hardeningparameter in slipsystems   !!!!TODO h = 0
+set	pi0					= 490		# initial slipresistance in slipsystems (MPa) (at 23C)
 set	piS					= 600		# saturated slipresistance in slipsystems
 set le 					= 0.2
 									# energetic length for gradientplasticity
@@ -13,7 +13,7 @@ set gamma0dot			= 0.6		# Reference Sliprate (1/s)
 set hardeningtype		= 1.4		# 1 for Taylortype-hardening, 1.4 standart, 0 no latent hardening
 set eta					= 0			# pseudoviscosity
 set	p					= 0.1		# Exponent for materiallaw
-set regularisation		= powerlaw_sech	# tanh_lin|powerlaw_sech|bardella_lin
+set regularisation		= tanh_lin	# tanh_lin|powerlaw_sech|bardella_lin
 set alpha				= 16.8e-6	# Thermal expansion coefficient
 
 set GB_behaviour		= detailed	# detailed|microhard|microfree
@@ -22,10 +22,10 @@ set p_gb 				= 1			# Exponent of GB law - dissipative part
 set S_gb 				= 0			# Factor of GB law - dissipative part
 
 # Load
-set n_slip				= 2			# Number of slipsystems  #TODO
-set	n_loadsteps			= 30		# Number of Loadsteps to apply displacement
-set	displacement		= 0.002		# magnitude of displacement
-set	n_refinements		= 4
+set n_slip				= 12			# Number of slipsystems  #TODO
+set	n_loadsteps			= 15		# Number of Loadsteps to apply displacement
+set	displacement		= 0.02		# magnitude of displacement
+set	n_refinements		= 0
 set	strainrate			= 0.02		# Rate of the norm of the strain, relevant for Creeplaw
 set isotrop				= false		# true: X*X*X crystals, false: X*X*1 crystals
 set crosssnake			= false		# ZigZagRVE
@@ -33,19 +33,19 @@ set csAngle				= 0			# Tiltangle of grains in direction of meltpool movement
 set csHeight			= 0.4		# height of one layer
 set elementsCSLayer		= 8			# number of elements per csLayer
 set n_crystals			= 1			#TODO
-set loadtype 			= testcase_andrew_microhard
+set loadtype 			= periodic_uniaxial_tension
 									# periodic|periodic_uniaxial_tension|periodic_plane_stress
 									# linear|linear_uniaxial_tension|linear_plane_stress
 									# linear_CG|linear_CG_uniaxial_tension|linear_CG_plane_stress
 									# testcase_andrew_microhard|testcase_andrew_microfree|testcase_grain_boundary|testcase_gottschalk
-set straindirection		= 12		# 11 22 33 12 13 23
+set straindirection		= 11		# 11 22 33 12 13 23
 set planeStressDir1		= 11		# just in case of biaxial tensions
 set planeStressDir2		= 12		# just in case of biaxial tensions
 									
 set strainpath			= linear_displacement	# prescribed_from_file|linear_displacement
 set tiltangle			= 5			# tiltangle for Directionally solidified
 
-set mesh				= simple_mesh
+set mesh				= out3periodic
 									# simple_mesh|out3periodic|out4periodic|out7periodic|out12periodic|out12periodicMessy|out18periodic
 									# ca_slice_IDs_32|ca_slice_IDs_64|12CA.inp
 set orientations		= orientations		# Filenames: orientations_B4|orientations
