@@ -13,7 +13,7 @@ set gamma0dot			= 0.6		# Reference Sliprate (1/s)
 set hardeningtype		= 1.4		# 1 for Taylortype-hardening, 1.4 standart, 0 no latent hardening
 set eta					= 0			# pseudoviscosity
 set	p					= 0.1		# Exponent for materiallaw
-set regularisation		= tanh_lin	# tanh_lin|powerlaw_sech|bardella_lin
+set regularisation		= bardella_lin	# tanh_lin|powerlaw_sech|bardella_lin
 set alpha				= 16.8e-6	# Thermal expansion coefficient
 
 set GB_behaviour		= detailed	# detailed|microhard|microfree
