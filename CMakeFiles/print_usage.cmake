@@ -2,7 +2,7 @@ MESSAGE(
 "###
 #
 #  Project  SFB814-C5  set up with  deal.II-8.5.1  found at
-#      /calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/dealii-8.5.1-2hi7swrrihcbr6unhyne63bbhpp7jh64
+#      /calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/dealii-8.5.1-lbsqsz6havsivngvjqbk5s76qs453eev
 #
 #  CMAKE_BUILD_TYPE:          Release
 #

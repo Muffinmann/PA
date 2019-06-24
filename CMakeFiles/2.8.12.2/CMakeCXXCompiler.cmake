@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/openmpi-3.1.0-65puguywlxgzjshnt6fh5gk7q3cza4gx/bin/mpic++")
+set(CMAKE_CXX_COMPILER "/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/openmpi-3.0.0-y2iqy5u7gtlzkuzwb44fslhx6owkxbia/bin/mpic++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "4.8.4")
@@ -50,7 +50,7 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "mpi_cxx;mpi;stdc++;m;pthread;c")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/hwloc-1.11.9-4zcv7tv4chlcdeteecmahsxc4hgjpxcd/lib;/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/openmpi-3.1.0-65puguywlxgzjshnt6fh5gk7q3cza4gx/lib;/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/dealii-8.5.1-2hi7swrrihcbr6unhyne63bbhpp7jh64/lib;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/hwloc-1.11.7-jcvgc3lqf3xincxtgzb227rpud766ngh/lib;/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/openmpi-3.0.0-y2iqy5u7gtlzkuzwb44fslhx6owkxbia/lib;/calculate/spack/opt/spack/linux-ubuntu14.04-x86_64/gcc-4.8/dealii-8.5.1-lbsqsz6havsivngvjqbk5s76qs453eev/lib;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 
 

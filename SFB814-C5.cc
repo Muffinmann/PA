@@ -2453,6 +2453,7 @@ void ElastoplasticProblem<dim, nslip>::postprocessing(unsigned int loadstep) {
 			 << parameter.get("regularisation")
 			 <<"_"<<parameter.get("gamma0dot")
 			 <<"_"<<parameter.get("p")
+			 <<"_"<<parameter.get("strainrate")
              << ".txt";
         string filename = sstm.str();
 
@@ -2952,10 +2953,11 @@ int main(int argc, char *argv[]) {
     deallog.depth_console(1);
     deallog.depth_file(1);
 	
-	std::string test(parameter.get("regularisation")),test2(parameter.get("gamma0dot")),test3(parameter.get("p")),test4("_");
-	std::string details = test4 + test + test4 + test2 +test4 + test3;
+	std::string test(parameter.get("regularisation")),test2(parameter.get("gamma0dot")),test3(parameter.get("p")),
+	test4("_"), test5(parameter.get("strainrate"));
+	std::string details = test4 + test + test4 + test2 + test4 + test3 + test4 + test5;
 	std::cout<<"!!!!!!!!!!!!!!"<<details<<endl;
-    std::ofstream logfile("Results/deallog"+test4+test+test4+test2+test4+test3);/*+test+test4+test2+test4+test3);*/
+    std::ofstream logfile("Results/deallog"+details);/*+test+test4+test2+test4+test3);*/
     deallog.attach(logfile);
 
     //ParameterHandler parameter;

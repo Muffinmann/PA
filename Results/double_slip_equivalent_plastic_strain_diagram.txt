@@ -1,32 +1,22 @@
-\addplot [color=blue, mark = none, forget plot]
-  table[row sep=newline]{%
-              0               0
-              0        0.038498
-              0        0.076996
-              0        0.115494
-              0        0.153992
-              0        0.716969
-              0        0.787727
-              0        0.858485
-              0        0.929242
-              0               1
-};
-
-\addplot [color=blue, mark = none, forget plot]
-  table[row sep=newline]{%
-              0        0.153992
-              0        0.224364
-              0        0.294736
-              0        0.365108
-              0        0.435481
-              0        0.505853
-              0        0.576225
-              0        0.646597
-              0        0.716969
-};
-
 \addplot [color=blue, mark = none, ]
   table[row sep=newline]{%
+              0               0
+              0          0.0625
+              0           0.125
+              0          0.1875
+              0            0.25
+              0          0.3125
+              0           0.375
+              0          0.4375
+              0             0.5
+              0          0.5625
+              0           0.625
+              0          0.6875
+              0            0.75
+              0          0.8125
+              0           0.875
+              0          0.9375
+              0               1
 };
 
 \addlegendentry{$|$\mbox{\boldmath$\varepsilon$}$^p|$, $\lambda_{gb}$ = xx};
