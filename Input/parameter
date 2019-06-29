@@ -9,7 +9,7 @@ set le 					= 0.2
 									# energetic length for gradientplasticity
 set c1					= 1			# constant for skrewdislocations
 set c2					= 1			# constant for edgedislocations
-set gamma0dot			= 0.00005		# Reference Sliprate (1/s)
+set gamma0dot			= 0.00001		# Reference Sliprate (1/s)
 set hardeningtype		= 1.4		# 1 for Taylortype-hardening, 1.4 standart, 0 no latent hardening
 set eta					= 0			# pseudoviscosity
 set	p					= 0.005		# Exponent for materiallaw
@@ -26,7 +26,7 @@ set n_slip				= 2			# Number of slipsystems  #TODO
 set	n_loadsteps			= 30		# Number of Loadsteps to apply displacement
 set	displacement		= 0.002		# magnitude of displacement
 set	n_refinements		= 4
-set	strainrate			= 0.02	# Rate of the norm of the strain, relevant for Creeplaw
+set	strainrate			= 0.002	# Rate of the norm of the strain, relevant for Creeplaw
 set isotrop				= false		# true: X*X*X crystals, false: X*X*1 crystals
 set crosssnake			= false		# ZigZagRVE
 set csAngle				= 0			# Tiltangle of grains in direction of meltpool movement
