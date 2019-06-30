@@ -1,4 +1,4 @@
-JobId fautms08 Sat Jun 29 17:37:25 2019
+JobId fautms08 Sun Jun 30 13:42:42 2019
 DEAL::Number of Crystals: 1
 DEAL::Ndof: 1027
 DEAL::Nel: 16
@@ -627,17 +627,17 @@ set writeOutVectors     = false
 
 
 +---------------------------------------------+------------+------------+
-| Total wallclock time elapsed since start    |      13.1s |            |
+| Total wallclock time elapsed since start    |      12.6s |            |
 |                                             |            |            |
 | Section                         | no. calls |  wall time | % of total |
 +---------------------------------+-----------+------------+------------+
-| Assemble                        |       100 |      9.02s |       69.% |
-| Make sparsity pattern           |       100 |    0.0102s |      0.00% |
-| Only Solve                      |        70 |     0.555s |       4.2% |
+| Assemble                        |       100 |      8.60s |       68.% |
+| Make sparsity pattern           |       100 |    0.0109s |      0.00% |
+| Only Solve                      |        70 |     0.545s |       4.3% |
 | Post init                       |         1 |    0.0156s |      0.12% |
-| Postprocessing                  |        31 |      3.31s |       25.% |
-| Setup QuadraturPointHistory     |         1 |   0.00554s |      0.00% |
-| Setup System                    |         1 |    0.0351s |      0.27% |
-| Solve without Assemble          |       132 |     0.724s |       5.5% |
+| Postprocessing                  |        31 |      3.25s |       26.% |
+| Setup QuadraturPointHistory     |         1 |   0.00572s |      0.00% |
+| Setup System                    |         1 |    0.0366s |      0.29% |
+| Solve without Assemble          |       132 |     0.707s |       5.6% |
 +---------------------------------+-----------+------------+------------+
 
