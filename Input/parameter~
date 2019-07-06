@@ -1,0 +1,94 @@
+# Materialparameters
+set EModul				= 121344	#129500	# EModul (MPa) 260053.26	119800
+set nu					= 0.3858	# 0.3002663	0.3858
+set mu					= 107212	#103000	# Shearmodul (MPa) 100000	96900
+set	h0					= 550		# hardeningparameter in slipsystems   !!!!TODO h = 0
+set	pi0					= 490		# initial slipresistance in slipsystems (MPa) (at 23C)
+set	piS					= 600		# saturated slipresistance in slipsystems
+set le 					= 0.2
+									# energetic length for gradientplasticity
+set c1					= 1			# constant for skrewdislocations
+set c2					= 1			# constant for edgedislocations
+set gamma0dot			= 0.6		# Reference Sliprate (1/s)
+set hardeningtype		= 1.4		# 1 for Taylortype-hardening, 1.4 standart, 0 no latent hardening
+set eta					= 0			# pseudoviscosity
+set	p					= 0.1		# Exponent for materiallaw
+set regularisation		= tanh_lin	# tanh_lin|powerlaw_sech|bardella_lin
+set alpha				= 16.8e-6	# Thermal expansion coefficient
+
+set GB_behaviour		= detailed	# detailed|microhard|microfree
+set lambda_gb			= 1e4		# Coefficient for Grain Boundary Law
+set p_gb 				= 1			# Exponent of GB law - dissipative part
+set S_gb 				= 0			# Factor of GB law - dissipative part
+
+# Load
+set n_slip				= 12			# Number of slipsystems  #TODO
+set	n_loadsteps			= 15		# Number of Loadsteps to apply displacement
+set	displacement		= 0.02		# magnitude of displacement
+set	n_refinements		= 0
+set	strainrate			= 0.02		# Rate of the norm of the strain, relevant for Creeplaw
+set isotrop				= false		# true: X*X*X crystals, false: X*X*1 crystals
+set crosssnake			= false		# ZigZagRVE
+set csAngle				= 0			# Tiltangle of grains in direction of meltpool movement
+set csHeight			= 0.4		# height of one layer
+set elementsCSLayer		= 8			# number of elements per csLayer
+set n_crystals			= 1			#TODO
+set loadtype 			= periodic_uniaxial_tension
+									# periodic|periodic_uniaxial_tension|periodic_plane_stress
+									# linear|linear_uniaxial_tension|linear_plane_stress
+									# linear_CG|linear_CG_uniaxial_tension|linear_CG_plane_stress
+									# testcase_andrew_microhard|testcase_andrew_microfree|testcase_grain_boundary|testcase_gottschalk
+set straindirection		= 11		# 11 22 33 12 13 23
+set planeStressDir1		= 11		# just in case of biaxial tensions
+set planeStressDir2		= 12		# just in case of biaxial tensions
+									
+set strainpath			= linear_displacement	# prescribed_from_file|linear_displacement
+set tiltangle			= 5			# tiltangle for Directionally solidified
+
+set mesh				= out3periodic
+									# simple_mesh|out3periodic|out4periodic|out7periodic|out12periodic|out12periodicMessy|out18periodic
+									# ca_slice_IDs_32|ca_slice_IDs_64|12CA.inp
+set orientations		= orientations		# Filenames: orientations_B4|orientations
+set randomly_oriented	= false		# Orientation of Crystalls with prescribed list or randomly
+
+set el_type_u			= Q2		# Q1|Q2|Q3
+set el_type_gamma		= Q1		# Q1|Q2|Q3
+set number_gp			= 3			# number of gauspoints per direction
+									
+set t_start				= 23
+set t_end				= 23
+
+# Solver
+set localCP				= false		# local on nonlocal crystal plasticity
+set newtonCorrection	= naive		# none, naive, improved
+set maxCGIterationsRel	= 2			# Max Iterations for CG Solver is ndof*maxCGIterationsRel
+set maxGlobalIterations	= 15		# max number of newton iterations to solve the equation
+set tolCGsolver			= 1e-12		# Tolerance for cg solver
+set globalTolNewton		= 1e-8		# bound for NR of the spatial NR
+set regularisationF		= 0.2		# [0; 1] smaller values for softer regularization
+set regularIncreaseF	= 1.3		# factor to increase regularization factor when tolerance is reached
+set NewtonTolIncReF		= 1e-3		# tolerance to increase regularization factor
+set targetConvergence	= 1.8		# Target convergence for last newtonstep in each reg increase loop, 2 for quadratic
+set MP_order			= 1			# Order of mechanical prediction, 0 for guess = last converged solution, ...
+set mode				= solve		# solve, calculateTangent, calculateYieldSurface
+set pertubation			= 1e-6		# Pertubation for the calculation of macroTangent
+set nCoresAssembly		= 4 		# Number of cores for assembly with Workstream
+set writeOutVectors		= false		# write solution vectors for analysis in file
+
+# Yieldsurface
+set macroTangent		= 260909.508, 122882.993, 147044.898, -1.164,  1.532, -143.531, 122882.993, 260914.361, 147038.282, 40.643,  0.039, 184.573, 147044.898, 147038.282, 236724.359,  0.243, -0.685, -10.199, -1.164, 40.643,  0.243, 105769.665, -52.229, 114.700,  1.532,  0.039, -0.685, -52.229, 105835.868, -0.928, -143.531, 184.573, -10.199, 114.700, -0.928, 68951.892
+set nPointsYS			= 26 		# number of points on yield surface including the uniaxial directions
+set startPointYS		= 6			# First point to calculate in Yieldsurface
+set endPointYS			= 6			# Last point to calculate in Yieldsurface
+
+# Postprocessing
+set postprocessing		= full,  	 	# full, stress_strain_curve, stress_at_laststep,
+#									# 1:full, 2:EModul, 3:stress_strain_curve 4:stress_at_laststep
+set print_crystal_data	= false		# true if detailed crystal data should be plotted
+
+# if the orientationset from B4 is used, euler2-euler3 is a z-x'-z'' rotation to fix the BD-error
+# if the orientationset from B4 is used, euler1 is used to fix the error in the direction of the secondary anisotropy 
+set euler1				= 0			# Rotation arround z, 2slip testcase with 2 crystals -> orientation of upper crystal
+set euler2				= 0			# Rotation arround y, 2slip testcase with 2 crystals -> orientation of lower crystal
+set euler3				= 0			# Rotation arround z
+set offset_domain 		= 0
