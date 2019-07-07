@@ -1,0 +1,438 @@
+JobId chimaira Sun Jul  7 16:23:18 2019
+DEAL::z: 0.0481125
+DEAL::Number of Crystals: 3
+DEAL::Ndof: 29361
+DEAL::Nel: 432
+DEAL::Solve
+DEAL::Full Postprocessing
+DEAL:: x(t=0.667) = 1.00 x(t=0.00); Loadstep 1 @ 0.666667
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 279.654     279.651     1.35120     0.00000     0.00000     284         6813.99     1.00000     nan         1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 7.01427e-05 1.82151e-12 7.01427e-05 0.0599618   0.00161199  205         6813.95     1.00000     -1.69786    1.30000     0           
+DEAL::Iteration 1 /3  Assemble Converged     | 1.00741e-08 8.86799e-13 1.00741e-08 4.31895e-08 2.50574e-07 205         6813.95     1.00000     1.92507     1.30000     0           
+DEAL::Dissipation actual step: 0.000725985 Total iteration: 2
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=1.33) = 2.00 x(t=0.667); -1.00 x(t=0.00); Loadstep 2 @ 1.33333
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.432072    1.78203e-12 0.432072    0.00000     0.00000     257         6813.94     1.00000     0.0455738   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.000125265 1.00163e-12 0.000125265 0.000266001 0.00154327  215         6813.91     1.00000     10.7072     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 3.60197e-08 8.58486e-13 3.60197e-08 6.98806e-08 4.47724e-07 131         6749.96     1.00000     1.90752     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Converged     | 9.99137e-12 8.74970e-13 9.95298e-12 1.93004e-11 1.28739e-10 131         6749.96     1.00000     1.47786     1.30000     0           
+DEAL::Dissipation actual step: 0.00278199 Total iteration: 3
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=2.00) = 2.00 x(t=1.33); -1.00 x(t=0.667); Loadstep 3 @ 2.00000
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.413664    1.96081e-12 0.413664    0.00000     0.00000     257         6813.88     1.00000     0.0348490   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.000173763 9.79674e-13 0.000173763 0.000254542 0.00147683  217         6813.86     1.00000     9.80834     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 7.40005e-08 9.75812e-13 7.40005e-08 9.48052e-08 6.21200e-07 135         6778.80     1.00000     1.89646     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Converged     | 3.02430e-11 8.55636e-13 3.02309e-11 4.04269e-11 2.64266e-10 135         6778.80     1.00000     1.47521     1.30000     0           
+DEAL::Dissipation actual step: 0.00599774 Total iteration: 3
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=2.67) = 2.00 x(t=2.00); -1.00 x(t=1.33); Loadstep 4 @ 2.66667
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.395932    2.00839e-12 0.395932    0.00000     0.00000     257         6813.81     1.00000     0.0382513   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.000215685 9.72950e-13 0.000215685 0.000243475 0.00141267  219         6813.79     1.00000     9.11125     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 1.20381e-07 9.05911e-13 1.20381e-07 1.16710e-07 7.70937e-07 136         6795.34     1.00000     1.88737     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Converged     | 6.41724e-11 9.99742e-13 6.41646e-11 6.66092e-11 4.29601e-10 136         6795.34     1.00000     1.47305     1.30000     0           
+DEAL::Dissipation actual step: 0.0102189 Total iteration: 3
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=3.33) = 2.00 x(t=2.67); -1.00 x(t=2.00); Loadstep 5 @ 3.33333
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.378861    2.03191e-12 0.378861    0.00000     0.00000     255         6813.72     1.00000     0.0413553   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.0476837   1.08002e-12 0.0476837   0.000232801 0.00135078  246         6842.41     1.00000     3.13539     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 0.00133008  1.07143e-12 0.00133008  4.03619e-05 0.000234094 227         6848.78     1.00000     2.17619     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 3.75470e-07 9.90794e-13 3.75470e-07 1.21068e-06 6.92176e-06 189         6838.72     1.00000     2.23406     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Converged     | 4.28978e-10 9.11238e-13 4.28977e-10 7.49112e-10 2.04755e-09 189         6838.72     1.00000     1.45789     1.30000     0           
+DEAL::Dissipation actual step: 0.0157840 Total iteration: 4
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=4.00) = 2.00 x(t=3.33); -1.00 x(t=2.67); Loadstep 6 @ 4.00000
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.359539    2.14597e-12 0.359539    0.00000     0.00000     261         6848.86     1.00000     0.0474247   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.0657933   1.01331e-12 0.0657933   0.000322705 0.00187287  257         6906.23     1.00000     2.66023     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 0.00293619  1.04276e-12 0.00293619  8.84380e-05 0.000512939 239         6923.87     1.00000     2.14264     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 2.09796e-06 1.07940e-12 2.09796e-06 4.42561e-06 2.51574e-05 205         6924.74     1.00000     2.24239     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Converged     | 4.24211e-09 1.07824e-12 4.24211e-09 8.44006e-09 1.89472e-08 205         6924.74     1.00000     1.47448     1.30000     0           
+DEAL::Dissipation actual step: 0.0242512 Total iteration: 4
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=4.67) = 2.00 x(t=4.00); -1.00 x(t=3.33); Loadstep 7 @ 4.66667
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.330271    2.36527e-12 0.330271    0.00000     0.00000     266         6924.53     1.00000     0.0574661   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.0644570   9.91923e-13 0.0644570   0.000489042 0.00283993  264         7036.42     1.00000     2.47486     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 0.00316286  1.17267e-12 0.00316286  0.000147256 0.000853738 250         7074.52     1.00000     2.09949     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 4.00417e-06 1.05033e-12 4.00417e-06 8.38416e-06 4.65998e-05 216         7076.64     1.00000     2.15906     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Solve Solved  | 1.73324e-08 1.00187e-12 1.73324e-08 2.65345e-08 6.73201e-08 180         7014.58     1.00000     1.43792     1.30000     0           
+DEAL::Iteration 1 /6  Assemble Converged     | 7.01812e-11 1.15231e-12 7.01717e-11 1.29925e-10 2.77976e-10 180         7014.58     1.00000     1.30828     1.30000     0           
+DEAL::Dissipation actual step: 0.0374257 Total iteration: 5
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=5.33) = 2.00 x(t=4.67); -1.00 x(t=4.00); Loadstep 8 @ 5.33333
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.284865    2.57175e-12 0.284865    0.00000     0.00000     272         7076.16     1.00000     0.0537102   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.0537430   1.15030e-12 0.0537430   0.000724936 0.00421554  277         7292.33     1.00000     2.32814     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 0.00216200  1.22262e-12 0.00216200  0.000208069 0.00120428  260         7362.03     1.00000     2.09907     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 1.01870e-05 1.14408e-12 1.01870e-05 1.03307e-05 5.31909e-05 230         7365.19     1.00000     1.87305     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Solve Solved  | 7.33095e-08 1.19580e-12 7.33095e-08 5.90385e-08 2.74245e-07 200         7364.40     1.00000     1.42927     1.30000     0           
+DEAL::Iteration 1 /6  Assemble Converged     | 5.03325e-10 1.21228e-12 5.03324e-10 7.01823e-10 1.89682e-09 200         7364.40     1.00000     1.30320     1.30000     0           
+DEAL::Dissipation actual step: 0.0567770 Total iteration: 5
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=6.00) = 2.00 x(t=5.33); -1.00 x(t=4.67); Loadstep 9 @ 6.00000
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.218425    2.74439e-12 0.218425    0.00000     0.00000     288         7363.99     1.00000     0.0710568   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.0322377   1.06486e-12 0.0322377   0.000923335 0.00538484  297         7714.37     1.00000     2.25767     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 0.000533851 1.11501e-12 0.000533851 0.000191402 0.00109526  275         7792.90     1.00000     2.19395     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 5.25260e-06 1.28513e-12 5.25260e-06 5.67880e-06 1.95114e-05 248         7724.87     1.00000     1.61329     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Solve Solved  | 6.55559e-08 1.20008e-12 6.55559e-08 7.12905e-08 2.32001e-07 216         7793.66     1.00000     1.36059     1.30000     0           
+DEAL::Iteration 1 /6  Assemble Converged     | 8.15809e-10 1.25662e-12 8.15808e-10 1.38170e-09 2.85985e-09 216         7793.66     1.00000     1.26520     1.30000     0           
+DEAL::Dissipation actual step: 0.0798876 Total iteration: 5
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=6.67) = 2.00 x(t=6.00); -1.00 x(t=5.33); Loadstep 10 @ 6.66667
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.139529    2.75764e-12 0.139529    0.00000     0.00000     307         7791.75     1.00000     0.0941128   1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.0116483   1.28271e-12 0.0116483   0.000850585 0.00498426  310         8176.47     1.00000     2.26079     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 6.42347e-05 1.30327e-12 6.42347e-05 9.34771e-05 0.000502061 279         8217.75     1.00000     2.16794     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 1.31665e-06 1.19684e-12 1.31665e-06 1.92327e-06 4.49814e-06 258         8217.60     1.00000     1.40272     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Solve Solved  | 2.74137e-08 1.27102e-12 2.74137e-08 5.00715e-08 9.22786e-08 228         8214.28     1.00000     1.28594     1.30000     0           
+DEAL::Iteration 1 /6  Assemble Converged     | 6.80646e-10 1.31429e-12 6.80645e-10 1.18905e-09 2.28380e-09 228         8214.28     1.00000     1.21225     1.30000     0           
+DEAL::Dissipation actual step: 0.0995819 Total iteration: 5
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=7.33) = 2.00 x(t=6.67); -1.00 x(t=6.00); Loadstep 11 @ 7.33333
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.0729493   3.15405e-12 0.0729493   0.00000     0.00000     323         8213.44     1.00000     0.124028    1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.00237629  1.26861e-12 0.00237629  0.000541353 0.00318833  310         8484.31     1.00000     2.30796     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 3.00286e-05 1.30631e-12 3.00286e-05 2.77411e-05 0.000114494 285         8494.32     1.00000     1.72343     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 5.75787e-07 1.35138e-12 5.75787e-07 6.54102e-07 1.97191e-06 259         8494.20     1.00000     1.37972     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Solve Solved  | 1.22430e-08 1.26399e-12 1.22430e-08 2.15802e-08 4.10491e-08 232         8480.52     1.00000     1.26802     1.30000     0           
+DEAL::Iteration 1 /6  Assemble Converged     | 3.62015e-10 1.34981e-12 3.62012e-10 6.14364e-10 1.20538e-09 232         8480.52     1.00000     1.19327     1.30000     0           
+DEAL::Dissipation actual step: 0.111667 Total iteration: 5
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=8.00) = 2.00 x(t=7.33); -1.00 x(t=6.67); Loadstep 12 @ 8.00000
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.0328848   3.01651e-12 0.0328848   0.00000     0.00000     331         8488.83     1.00000     0.157077    1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 0.000210839 1.41104e-12 0.000210839 0.000266065 0.00157243  311         8628.43     1.00000     2.47878     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 4.36101e-06 1.42713e-12 4.36101e-06 7.41455e-06 1.46071e-05 284         8629.31     1.00000     1.45820     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 1.36944e-07 1.28225e-12 1.36944e-07 2.28169e-07 4.54882e-07 258         8629.25     1.00000     1.28040     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Converged     | 4.22304e-09 1.32814e-12 4.22304e-09 7.67988e-09 1.39565e-08 258         8629.25     1.00000     1.22014     1.30000     0           
+DEAL::Dissipation actual step: 0.117715 Total iteration: 4
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=8.67) = 2.00 x(t=8.00); -1.00 x(t=7.33); Loadstep 13 @ 8.66667
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.0136858   3.02297e-12 0.0136858   0.00000     0.00000     323         8623.30     1.00000     0.222552    1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 9.61386e-05 1.48829e-12 9.61386e-05 0.000114610 0.000678508 300         8684.58     1.00000     2.15541     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 2.03308e-06 1.60285e-12 2.03308e-06 2.39052e-06 6.91207e-06 277         8684.22     1.00000     1.41690     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 4.90406e-08 1.53625e-12 4.90406e-08 8.71624e-08 1.63057e-07 252         8683.38     1.00000     1.28420     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Converged     | 1.65084e-09 1.52675e-12 1.65084e-09 2.82379e-09 5.46216e-09 252         8683.38     1.00000     1.20150     1.30000     0           
+DEAL::Dissipation actual step: 0.120560 Total iteration: 4
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=9.33) = 2.00 x(t=8.67); -1.00 x(t=8.00); Loadstep 14 @ 9.33333
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.00549927  3.37804e-12 0.00549927  0.00000     0.00000     320         8677.97     1.00000     0.257301    1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 6.30830e-05 1.49558e-12 6.30830e-05 4.66483e-05 0.000276362 296         8703.06     1.00000     1.85870     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 1.10850e-06 1.49656e-12 1.10850e-06 8.86835e-07 3.81781e-06 267         8702.79     1.00000     1.41789     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Solve Solved  | 2.12543e-08 1.59970e-12 2.12543e-08 3.41491e-08 7.16466e-08 207         8683.27     1.00000     1.28836     1.30000     0           
+DEAL::Iteration 1 /5  Assemble Converged     | 6.64391e-10 1.53369e-12 6.64389e-10 1.07502e-09 2.20667e-09 207         8683.27     1.00000     1.19616     1.30000     0           
+DEAL::Dissipation actual step: 0.121983 Total iteration: 4
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+DEAL:: x(t=10.0) = 2.00 x(t=9.33); -1.00 x(t=8.67); Loadstep 15 @ 10.0000
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble Solve Solved  | 0.00218054  3.56254e-12 0.00218054  0.00000     0.00000     316         8696.46     1.00000     0.289993    1.30000     0           
+DEAL::Iteration 1 /2  Assemble Solve Solved  | 2.89812e-05 1.60633e-12 2.89812e-05 1.85750e-05 0.000110073 291         8706.45     1.00000     1.70505     1.30000     0           
+DEAL::Iteration 1 /3  Assemble Solve Solved  | 4.90036e-07 1.63711e-12 4.90036e-07 3.42735e-07 1.69401e-06 260         8706.31     1.00000     1.39047     1.30000     0           
+DEAL::Iteration 1 /4  Assemble Converged     | 8.80838e-09 1.64426e-12 8.80838e-09 1.33786e-08 2.98576e-08 260         8706.31     1.00000     1.27661     1.30000     0           
+DEAL::Dissipation actual step: 0.122820 Total iteration: 3
+DEAL::
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Full Postprocessing
+# Listing of Parameters
+# ---------------------
+# EModul in MPa
+set EModul              = 121344                                                                                                                                                                                                                                                                                                                                                    # default: 136300
+
+# Grain boundary behaviour
+set GB_behaviour        = detailed
+
+# Order of mechanical prediction, -1 for guess=0, 0 for guess =
+# oldNewtonUpdate, ...
+set MP_order            = 1                                                                                                                                                                                                                                                                                                                                                         # default: -1
+
+# Tolerance to increase RegularisationFaktor for tanh
+set NewtonTolIncReF     = 1e-3
+
+# Exponent of gammaAlpha in Bardella
+set Nh                  = 1
+
+# Hardening parameter for dissipative part of the Grain Boundary Law
+set S_gb                = 0                                                                                                                                                                                                                                                                                                                                                         # default: 1
+
+# Thermal expansion coefficient
+set alpha               = 16.8e-6
+
+# constant for skrewdislocations
+set c1                  = 1                                                                                                                                                                                                                                                                                                                                                         # default: 120
+
+# constant for edgedislocations
+set c2                  = 1                                                                                                                                                                                                                                                                                                                                                         # default: 120
+
+# zigzag RVE or not
+set crosssnake          = false
+
+# Tiltangle of grains in direction of meltpool movement
+set csAngle             = 0                                                                                                                                                                                                                                                                                                                                                         # default: 5
+
+# height of one layer
+set csHeight            = 0.4                                                                                                                                                                                                                                                                                                                                                       # default: 0.2
+
+# Displacement in Tensildirection
+set displacement        = 0.02                                                                                                                                                                                                                                                                                                                                                      # default: 0.01
+
+# Elementtype (Q1|Q2|Q3)
+set el_type_gamma       = Q1
+
+# Elementtype (Q1|Q2|Q3)
+set el_type_u           = Q2
+
+# number of elements per csLayer
+set elementsCSLayer     = 8                                                                                                                                                                                                                                                                                                                                                         # default: 2
+
+# Last point to calculate on Yieldsurface
+set endPointYS          = 6                                                                                                                                                                                                                                                                                                                                                         # default: 999
+
+# Eta of Nortonslaw
+set eta                 = 0                                                                                                                                                                                                                                                                                                                                                         # default: 1000
+
+# Eulerangle 1
+set euler1              = 0
+
+# Eulerangle 2
+set euler2              = 0
+
+# Eulerangle 3
+set euler3              = 0
+
+# Polynomial Degree of Slip Ansatzfunction
+set feq_gamma           = 1
+
+# Polynomial Degree of Displacement Ansatzfunction
+set feq_u               = 2
+
+# Reference sliprate
+set gamma0dot           = 0.0001
+
+# Terminationcriterion for global NewtonRaphson
+set globalTolNewton     = 1e-8
+
+# Hardening in Slipsystem
+set h0                  = 550                                                                                                                                                                                                                                                                                                                                                       # default: 1
+
+# Hardeningtype
+set hardeningtype       = 1.4                                                                                                                                                                                                                                                                                                                                                       # default: 1
+
+# Isotrop or long grains
+set isotrop             = false
+
+# Coefficient for Grain Boundary Law
+set lambda_gb           = 1e4                                                                                                                                                                                                                                                                                                                                                       # default: 1
+
+# energetic length for gradientplasticity
+set le                  = 0.2                                                                                                                                                                                                                                                                                                                                                       # default: 0
+
+# Loadtype
+# (periodic|periodic_uniaxial_tension|periodic_plane_stress|linear|linear_uniaxial_tension|linear_plane_stress|linear_CG|linear_CG_uniaxial_tension|linear_CG_plane_stress|testcase_andrew_microhard|testcase_andrew_microfree|testcase_grain_boundary|testcase_gottschalk)
+set loadtype            = periodic_uniaxial_tension                                                                                                                                                                                                                                                                                                                                 # default: periodic
+
+# local on nonlocal crystal plasticity
+set localCP             = false
+
+# Macroscopic Tangent rowwise
+set macroTangent        = 260909.508, 122882.993, 147044.898, -1.164,  1.532, -143.531, 122882.993, 260914.361, 147038.282, 40.643,  0.039, 184.573, 147044.898, 147038.282, 236724.359,  0.243, -0.685, -10.199, -1.164, 40.643,  0.243, 105769.665, -52.229, 114.700,  1.532,  0.039, -0.685, -52.229, 105835.868, -0.928, -143.531, 184.573, -10.199, 114.700, -0.928, 68951.892 # default: 
+
+# Max Iterations for CG Solver is ndof*maxCGIterationsRel
+set maxCGIterationsRel  = 2                                                                                                                                                                                                                                                                                                                                                         # default: 1
+
+# Maximum global Newtoniterations
+set maxGlobalIterations = 15                                                                                                                                                                                                                                                                                                                                                        # default: 10
+
+# simple_mesh|out7|out7periodic|out12|out12periodic|out38|out38periodic
+set mesh                = out3periodic                                                                                                                                                                                                                                                                                                                                              # default: simple_mesh
+
+# Calculationmode
+set mode                = solve
+
+# mu in MPa
+set mu                  = 107212                                                                                                                                                                                                                                                                                                                                                    # default: 127400
+
+# Number of cores for assembly with Workstream
+set nCoresAssembly      = 4                                                                                                                                                                                                                                                                                                                                                         # default: 8
+
+# number of points on yield surface including the uniaxial directions
+set nPointsYS           = 26                                                                                                                                                                                                                                                                                                                                                        # default: 1
+
+# Number of crystals per direction
+set n_crystals          = 1                                                                                                                                                                                                                                                                                                                                                         # default: 4
+
+# Number of Loadsteps
+set n_loadsteps         = 15                                                                                                                                                                                                                                                                                                                                                        # default: 20
+
+# Number of Meshrefinements
+set n_refinements       = 0                                                                                                                                                                                                                                                                                                                                                         # default: 2
+
+# Number of Slipsystems
+set n_slip              = 12
+
+# none|naive|improved
+set newtonCorrection    = naive
+
+# nu
+set nu                  = 0.3858                                                                                                                                                                                                                                                                                                                                                    # default: 0.37
+
+# Number of GP per direction
+set number_gp           = 3
+
+# offset for angles
+set offset_domain       = 0
+
+# Filenames: orientations_B4|orientations
+set orientations        = orientations
+
+# Exponent of Nortonslaw
+set p                   = 0.01                                                                                                                                                                                                                                                                                                                                                      # default: 10
+
+# Rate sensitivity exponent for Grain Boundary Law
+set p_gb                = 1
+
+# Pertubation for the calculation of macroTangent
+set pertubation         = 1e-6
+
+# Initial Slipresistance
+set pi0                 = 490                                                                                                                                                                                                                                                                                                                                                       # default: 60
+
+# Saturated Slipresistance
+set piS                 = 600                                                                                                                                                                                                                                                                                                                                                       # default: 120
+
+# Direction one for biaxial loading
+set planeStressDir1     = 11
+
+# Direction two for biaxial loading
+set planeStressDir2     = 12                                                                                                                                                                                                                                                                                                                                                        # default: 22
+
+# 1:full, 2:EModul, 3:stress_strain_curve
+set postprocessing      = full,
+
+# Print interaction moduli and slipsystem informations
+set print_crystal_data  = false
+
+# Orientation of Crystalls with prescribed list or randomly
+set randomly_oriented   = false
+
+# Faktor to increase RegularisationFaktor for tanh
+set regularIncreaseF    = 1.3                                                                                                                                                                                                                                                                                                                                                       # default: 1.1
+
+# Regularsation
+set regularisation      = bardella_lin                                                                                                                                                                                                                                                                                                                                              # default: tanh_lin
+
+# RegularisationFaktor for tanh
+set regularisationF     = 0.2                                                                                                                                                                                                                                                                                                                                                       # default: 1
+
+# First point to calculate on Yieldsurface
+set startPointYS        = 6                                                                                                                                                                                                                                                                                                                                                         # default: 0
+
+# Loaddirection
+set straindirection     = 11
+
+# Type of prescribed strainpath
+set strainpath          = linear_displacement
+
+# Rate of norm of the strain
+set strainrate          = 0.002                                                                                                                                                                                                                                                                                                                                                     # default: 0.02
+
+# Temperature end
+set t_end               = 23
+
+# Temperature start
+set t_start             = 23                                                                                                                                                                                                                                                                                                                                                        # default: 1000
+
+# Target convergence for last newtonstep in each reg increase loop, 2 for
+# quadratic
+set targetConvergence   = 1.8                                                                                                                                                                                                                                                                                                                                                       # default: 2
+
+# Tilt against Buildingdirection
+set tiltangle           = 5                                                                                                                                                                                                                                                                                                                                                         # default: 15
+
+# Tolerance for CG Solver
+set tolCGsolver         = 1e-12                                                                                                                                                                                                                                                                                                                                                     # default: 1e-10
+
+# write solution vectors for analysis in file
+set writeOutVectors     = false
+
+
++---------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start    |  1.98e+03s |            |
+|                                             |            |            |
+| Section                         | no. calls |  wall time | % of total |
++---------------------------------+-----------+------------+------------+
+| Assemble                        |        74 |  1.69e+03s |       86.% |
+| Make sparsity pattern           |        74 |     0.409s |      0.00% |
+| Only Solve                      |        59 |      223.s |       11.% |
+| Post init                       |         1 |      1.01s |      0.00% |
+| Postprocessing                  |        16 |      56.2s |       2.8% |
+| Setup QuadraturPointHistory     |         1 |   0.00510s |      0.00% |
+| Setup System                    |         1 |      1.97s |      0.00% |
+| Solve without Assemble          |        91 |      227.s |       11.% |
++---------------------------------+-----------+------------+------------+
+

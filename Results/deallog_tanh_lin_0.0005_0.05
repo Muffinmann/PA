@@ -1,0 +1,12 @@
+JobId chimaira Sat Jul  6 16:28:48 2019
+DEAL::z: 0.0481125
+DEAL::Number of Crystals: 3
+DEAL::Ndof: 29361
+DEAL::Nel: 432
+DEAL::Solve
+DEAL::Full Postprocessing
+DEAL:: x(t=0.0667) = 1.00 x(t=0.00); Loadstep 1 @ 0.0666667
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::SOLVER STEP                            | RES_NORM    RES_U       RES_G       D_U         D_G         LIN_IT      COND_NR     Regular_F   ConvergF    regIncF     NewtonCor   
+DEAL::__________________________________________________________________________________________________________________________________________________________________________
+DEAL::Iteration 1 /1  Assemble 

@@ -1,0 +1,16 @@
+Begin step 0
+Stress 0 0 0 0 0 0 0 0 0
+Strain 0 0 0 0 0 0 0 0 0
+Strain mean 0 0 0 0 0 0 0 0 0
+Plastic strain_mean 0 0 0 0 0 0 0 0 0
+Plastic strain_rate_mean 0 0 0 0 0 0 0 0 0
+Dissipation 0
+End step 0
+Begin step 0
+Stress 0 0 0 0 0 0 0 0 0
+Strain 0 0 0 0 0 0 0 0 0
+Strain mean 0 0 0 0 0 0 0 0 0
+Plastic strain_mean 0 0 0 0 0 0 0 0 0
+Plastic strain_rate_mean 0 0 0 0 0 0 0 0 0
+Dissipation 0
+End step 0
